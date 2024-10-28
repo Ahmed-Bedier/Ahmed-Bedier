@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ff9800;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 10px;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ff9800;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ff9800;
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+i {
+    margin-right: 8px;
+}
+
+/* الأساسيات العامة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ff9800;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 10px;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ff9800;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ff9800;
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+i {
+    margin-right: 8px;
+}
+
+/* الأكواد المتجاوبة */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .contact-info a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+
+    section {
+        margin-top: 15px;
+    }
+}
