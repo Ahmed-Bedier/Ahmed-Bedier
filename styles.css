@@ -1,160 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architect Portfolio - Ahmed Bedier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Ahmed Bedier</h1>
+            <p>Architect & Designer</p>
+            <div class="contact-info">
+                <a href="mailto:abedier0@gmail.com"><i class="fas fa-envelope"></i> abedier0@gmail.com</a>
+                <a href="https://linkedin.com/in/ahmedbedier" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="about">
+        <div class="container">
+            <h2>Professional Summary</h2>
+            <p>A skilled architect with over 6 years of experience in residential, commercial, and landscape projects. Specialized in BIM, AutoCAD, Revit, project planning, site supervision, and technical drawing. Ready to bring my skills to a visionary team.</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Construction Site Manager - Al-Saeed For General Supplies</h3>
+                <span>May 2022 - Present</span>
+                <p>Leading a team of engineers and supervisors to ensure timely and quality execution of construction projects. Focused on efficient resource allocation and smooth project delivery.</p>
+            </div>
+            <div class="job">
+                <h3>Senior Site Engineer - Al-Baraka Construction Company</h3>
+                <span>July 2021 - April 2022</span>
+                <p>Supervised architectural finishing and ensured compliance with project standards, contributing to streamlined project handovers and improved team collaboration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Selected Projects</h2>
+            <div class="project">
+                <h3>Military College Accommodation</h3>
+                <p>New Administrative Capital - EGP 100 million budget - 20% reduction in execution time.</p>
+            </div>
+            <div class="project">
+                <h3>Al-Qalali Recreational Park</h3>
+                <p>Cairo, Mokattam - 42,000 m² park - Record completion time of 7 months.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Bachelor's of Engineering, Architecture - Al-Azhar University Of Cairo</p>
+            <p>BIM Diploma - Niqat Global (Expected November 2025)</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>AutoCAD, Revit, BIM, 3D MAX</li>
+                <li>Project Planning, Teamwork, Communication</li>
+                <li>Adobe Photoshop, SketchUp, Lumion</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ahmed Bedier. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+/* إعدادات أساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: #f0f0f0;
     line-height: 1.6;
-    margin: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-header {
+/* رأس الموقع */
+.header {
+    background-color: #333;
+    padding: 20px 0;
     text-align: center;
 }
-
-header h1 {
+.header h1 {
+    color: #ff9800;
     font-size: 2.5em;
-    margin: 0;
-    color: #ff9800;
 }
-
+.header p {
+    font-size: 1.2em;
+    color: #ccc;
+}
 .contact-info a {
-    display: inline-block;
-    margin: 10px;
-    color: #f0f0f0;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
     color: #ff9800;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.contact-info a:hover {
+    color: #fff;
 }
 
-section {
-    margin-top: 20px;
+/* أقسام الموقع */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
 }
-
 h2 {
     color: #ff9800;
     border-bottom: 2px solid #ff9800;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+/* التجربة والمشاريع */
+.job, .project {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.job h3, .project h3 {
+    color: #ff9800;
+}
+.job span {
+    font-size: 0.9em;
+    color: #ccc;
 }
 
-i {
-    margin-right: 8px;
+/* المهارات */
+.skills ul {
+    list-style: none;
+    padding-left: 10px;
+}
+.skills li {
+    margin-bottom: 5px;
 }
 
-/* الأساسيات العامة */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #f0f0f0;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-header {
+/* تذييل الموقع */
+.footer {
+    background-color: #333;
     text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin: 0;
-    color: #ff9800;
-}
-
-.contact-info a {
-    display: inline-block;
-    margin: 10px;
-    color: #f0f0f0;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    color: #ff9800;
-}
-
-section {
-    margin-top: 20px;
-}
-
-h2 {
-    color: #ff9800;
-    border-bottom: 2px solid #ff9800;
-    padding-bottom: 5px;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-i {
-    margin-right: 8px;
-}
-
-/* الأكواد المتجاوبة */
-@media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    .contact-info a {
-        display: block;
-        margin: 5px 0;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    ul {
-        padding-left: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 1.8em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-
-    ul {
-        padding-left: 10px;
-    }
-
-    section {
-        margin-top: 15px;
-    }
+    padding: 10px;
+    color: #ccc;
+    font-size: 0.9em;
 }
