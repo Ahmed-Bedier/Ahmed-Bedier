@@ -97,3 +97,20 @@ h4 {
         width: 100%;
     }
 }
+/* الخلفية الشفافة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('background.jpg'); /* ضع رابط الصورة هنا */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* شفافية خلفية النص */
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* اللون الأبيض مع شفافية */
+    padding: 20px;
+    border-radius: 8px;
+}
